@@ -10,3 +10,4 @@ class Uzivatel:
         if quest not in self.splnene_kwesty:
             self.splnene_kwesty.append(quest)
             self.elo += int(quest.odmena_xp / 10)
+#
