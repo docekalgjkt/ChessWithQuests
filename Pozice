@@ -1,0 +1,12 @@
+class Pozice:
+    def __init__(self, radka: int, sloupec: int):
+        self.radka: int = radka
+        self.sloupec: int = sloupec
+
+    def to_tuple(self) -> Tuple[int, int]:
+        return (self.radka, self.sloupec)
+
+    def __eq__(self, other):
+        if isinstance(other, Pozice):
+            return self.radka == other.radka and self.sloupec == other.sloupec
+        return False

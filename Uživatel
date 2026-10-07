@@ -1,0 +1,12 @@
+class Uzivatel:
+    def __init__(self, uzivatelske_jmeno: str, jmeno: str, email: str, elo: int = 1200):
+        self.uzivatelske_jmeno: str = uzivatelske_jmeno
+        self.jmeno: str = jmeno
+        self.email: str = email
+        self.elo: int = elo
+        self.splnene_kwesty: List[Kwest] = []
+
+    def pridej_kwest(self, quest: Kwest):
+        if quest not in self.splnene_kwesty:
+            self.splnene_kwesty.append(quest)
+            self.elo += int(quest.odmena_xp / 10)
