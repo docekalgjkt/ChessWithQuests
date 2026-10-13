@@ -1,3 +1,8 @@
+import tkinter as tk
+from tkinter import messagebox, ttk
+from typing import List, Tuple, Optional
+import time
+
 class Pozice:
     def __init__(self, radka: int, sloupec: int):
         self.radka: int = radka
