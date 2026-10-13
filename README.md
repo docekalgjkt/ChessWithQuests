@@ -1,0 +1,1 @@
+Vytvořeno za pomocí AI
