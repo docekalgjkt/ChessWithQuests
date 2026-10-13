@@ -1,0 +1,12 @@
+class Figurka:
+    def __init__(self, nazev: str, barva: int, pozice: Pozice):
+        self.nazev: str = nazev
+        self.barva: int = barva
+        self.pozice: Pozice = pozice
+        self.pocet_tahu: int = 0
+        self.aktivni: bool = True
+        self.hodnota: int = 1
+        self.symbol: str = ""
+        self.skok: bool = False
+        self.vektory: List[List[int]] = []
+        self.vektory_utoku: List[List[int]] = []
