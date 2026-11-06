@@ -1,7 +1,0 @@
-class Hrac:
-    def __init__(self, barva: int, uzivatel: Uzivatel):
-        self.barva: int = barva  # 0 = Bílý, 1 = Černý
-        self.uzivatel: Uzivatel = uzivatel
-
-    def getEloRating(self) -> int:
-        return self.uzivatel.elo

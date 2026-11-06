@@ -1,6 +1,0 @@
-{
-  "name": "Šachy MVC - Chess Architecture & Interactive Game",
-  "description": "Functional Chess application following the Model-View-Controller (MVC) pattern with interactive GUI, visual design blueprint with component labels, complete chess engine, timer, quests, and inspectable architecture.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
