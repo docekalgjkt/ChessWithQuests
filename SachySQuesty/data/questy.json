@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q1",
+    "nazev": "Ochutnávka",
+    "popis": "Vyhoď svou první figurku.",
+    "typ": "vyhozeni",
+    "parametr": "1",
+    "odmena_xp": 10,
+    "odmena_body": 5,
+    "aktivni": true
+  },
+  {
+    "id": "q2",
+    "nazev": "Lovec",
+    "popis": "Vyhoď v jedné partii 6 figurek.",
+    "typ": "vyhozeni",
+    "parametr": "6",
+    "odmena_xp": 40,
+    "odmena_body": 20,
+    "aktivni": true
+  },
+  {
+    "id": "q3",
+    "nazev": "Královrah dámy",
+    "popis": "Vyhoď soupeři dámu.",
+    "typ": "vyhozeni_figurky",
+    "parametr": "Dáma",
+    "odmena_xp": 30,
+    "odmena_body": 15,
+    "aktivni": true
+  },
+  {
+    "id": "q4",
+    "nazev": "Hrad v bezpečí",
+    "popis": "Proveď rošádu.",
+    "typ": "rosada",
+    "parametr": "",
+    "odmena_xp": 15,
+    "odmena_body": 5,
+    "aktivni": true
+  },
+  {
+    "id": "q5",
+    "nazev": "Povýšení",
+    "popis": "Proměň pěšáka na jinou figurku.",
+    "typ": "promena",
+    "parametr": "",
+    "odmena_xp": 30,
+    "odmena_body": 15,
+    "aktivni": true
+  },
+  {
+    "id": "q6",
+    "nazev": "Mimochodem",
+    "popis": "Vezmi pěšáka mimochodem.",
+    "typ": "en_passant",
+    "parametr": "",
+    "odmena_xp": 40,
+    "odmena_body": 20,
+    "aktivni": true
+  },
+  {
+    "id": "q7",
+    "nazev": "Šach!",
+    "popis": "Dej v jedné partii 3 šachy.",
+    "typ": "sach",
+    "parametr": "3",
+    "odmena_xp": 15,
+    "odmena_body": 5,
+    "aktivni": true
+  },
+  {
+    "id": "q8",
+    "nazev": "První vítězství",
+    "popis": "Vyhraj partii.",
+    "typ": "vyhra",
+    "parametr": "",
+    "odmena_xp": 50,
+    "odmena_body": 25,
+    "aktivni": true
+  },
+  {
+    "id": "q9",
+    "nazev": "Blesková výhra",
+    "popis": "Vyhraj partii do 25 vlastních tahů.",
+    "typ": "vyhra_do_tahu",
+    "parametr": "25",
+    "odmena_xp": 60,
+    "odmena_body": 30,
+    "aktivni": true
+  },
+  {
+    "id": "q10",
+    "nazev": "Smír",
+    "popis": "Dosáhni remízy.",
+    "typ": "remiza",
+    "parametr": "",
+    "odmena_xp": 20,
+    "odmena_body": 10,
+    "aktivni": true
+  },
+  {
+    "id": "q11",
+    "nazev": "Veterán",
+    "popis": "Odehraj 10 partií.",
+    "typ": "odehrane_partie",
+    "parametr": "10",
+    "odmena_xp": 100,
+    "odmena_body": 50,
+    "aktivni": true
+  }
+]
